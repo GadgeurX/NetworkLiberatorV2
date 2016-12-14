@@ -1,20 +1,12 @@
 ﻿<Properties StartupConfiguration="{739BECEF-7E61-47D2-A71C-2D417D6303AA}|Default">
   <MonoDevelop.Ide.ItemProperties.NetworkLiberator.Mac PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="NetworkLiberator/ViewController.cs">
-    <Files>
-      <File FileName="NetworkLiberator/Main.cs" Line="9" Column="1" />
-      <File FileName="NetworkLiberator/ViewController.cs" Line="47" Column="58" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="NetworkLiberator" expanded="True">
-            <Node name="NetworkLiberator.Core" expanded="True">
-              <Node name="References" expanded="True" />
-            </Node>
-            <Node name="NetworkLiberator.Mac" expanded="True">
-              <Node name="ViewController.cs" selected="True" />
-            </Node>
+            <Node name="NetworkLiberator.Core" expanded="True" />
+            <Node name="NetworkLiberator.Mac" expanded="True" selected="True" />
           </Node>
         </State>
       </Pad>

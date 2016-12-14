@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLiberator.Mac", "NetworkLiberator\NetworkLiberator.Mac.csproj", "{739BECEF-7E61-47D2-A71C-2D417D6303AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLiberator.Mac", "NetworkLiberator.Mac\NetworkLiberator.Mac.csproj", "{739BECEF-7E61-47D2-A71C-2D417D6303AA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLiberator.Core", "NetworkLiberator.Core\NetworkLiberator.Core.csproj", "{E1982505-1C61-4680-8E3D-6636D1BD7453}"
 EndProject
