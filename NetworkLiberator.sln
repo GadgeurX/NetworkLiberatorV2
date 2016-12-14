@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLiberator.Mac", "NetworkLiberator\NetworkLiberator.Mac.csproj", "{739BECEF-7E61-47D2-A71C-2D417D6303AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLiberator.Core", "NetworkLiberator.Core\NetworkLiberator.Core.csproj", "{E1982505-1C61-4680-8E3D-6636D1BD7453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{739BECEF-7E61-47D2-A71C-2D417D6303AA}.Debug|x86.ActiveCfg = Debug|x86
+		{739BECEF-7E61-47D2-A71C-2D417D6303AA}.Debug|x86.Build.0 = Debug|x86
+		{739BECEF-7E61-47D2-A71C-2D417D6303AA}.Release|x86.ActiveCfg = Release|x86
+		{739BECEF-7E61-47D2-A71C-2D417D6303AA}.Release|x86.Build.0 = Release|x86
+		{E1982505-1C61-4680-8E3D-6636D1BD7453}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1982505-1C61-4680-8E3D-6636D1BD7453}.Debug|x86.Build.0 = Debug|Any CPU
+		{E1982505-1C61-4680-8E3D-6636D1BD7453}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1982505-1C61-4680-8E3D-6636D1BD7453}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
