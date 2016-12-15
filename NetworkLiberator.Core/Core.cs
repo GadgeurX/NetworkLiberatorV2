@@ -9,12 +9,10 @@ namespace NetworkLiberator.Core
 		private HostManager m_HostManager;
 		private NetworkScanner m_NetworkScanner;
 		private ArpAttack m_ArpAttack;
-		private LibPcapHandler m_LibPcapHandler;
 
-		public Core()
+		private Core()
 		{
 			m_Instance = this;
-			m_LibPcapHandler = new LibPcapHandler();
 			m_HostManager = new HostManager();
 			m_NetworkScanner = new NetworkScanner(m_HostManager);
 			m_NetworkScanner.Start();
@@ -45,7 +43,7 @@ namespace NetworkLiberator.Core
 
 		public static Core Instance
 		{
-			get { return m_Instance; }
+			get { if (m_Instance == null) return new Core(); return m_Instance; }
 		}
 
 		public IList<Host> Hosts

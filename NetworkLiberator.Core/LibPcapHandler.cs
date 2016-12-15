@@ -12,7 +12,7 @@ namespace NetworkLiberator.Core
 		private static LibPcapHandler m_Instance;
 		public readonly object lockObj = new object();
 
-		public LibPcapHandler()
+		private LibPcapHandler()
 		{
 			m_Instance = this;
 			m_DeviceName = NetworkUtils.GetInterfaceName();
@@ -49,7 +49,7 @@ namespace NetworkLiberator.Core
 
 		public static LibPcapHandler Instance
 		{
-			get { return m_Instance; }
+			get { if (m_Instance == null) return new LibPcapHandler();return m_Instance; }
 		}
 	}
 }
